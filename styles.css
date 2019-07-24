@@ -1,0 +1,50 @@
+body {
+  background-color: lightgray;
+}
+
+.info {
+  font-family: sans-serif;
+  color: midnightblue;
+  display: inline-block;
+  width: 30%;
+  margin-right: 20px;
+
+}
+
+.name {
+  margin-bottom: 0px;
+}
+
+.username {
+  margin-top: 2px;
+}
+
+.headshot {
+  border-radius: 180px;
+  width: 200px;
+}
+
+.image {
+  display: inline-block;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 20%;
+  height: 40px;
+}
+
+button {
+  background-color: midnightblue;
+  color: white;
+  width: 20%;
+  height: 20px;
+  font-size: 100%;
+  padding: 2%;
+}
